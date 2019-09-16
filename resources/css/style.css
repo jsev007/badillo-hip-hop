@@ -800,7 +800,7 @@ input[type=checkbox] {
 .section-collection  h2:after {
     display: block;
     height: 2px;
-    background-color: #000000;
+    background-color: #000;
     content: " ";
     width: 100px;
     margin: 0 auto;
