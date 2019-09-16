@@ -70,6 +70,7 @@ $(document).ready(function() {
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
         var icon = $('.js--nav-icon i');
+        var solid = $('.js--main-nav-solid');
         
         nav.slideToggle(200);
         
@@ -79,6 +80,13 @@ $(document).ready(function() {
         } else {
             icon.addClass('ion-navicon-round');
             icon.removeClass('ion-close-round');
-        }        
+        }
+        if (solid.hasClass('main-nav-not-solid')) {
+            solid.addClass('main-nav-solid');
+            solid.removeClass('main-nav-not-solid');
+        } else {
+            solid.addClass('main-nav-not-solid');
+            solid.removeClass('main-nav-solid');
+        }         
     });
 });

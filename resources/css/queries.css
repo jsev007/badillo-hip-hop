@@ -45,7 +45,7 @@
     .plan-price { font-size: 250%; }
     .contact-form { width: 80%; }
 
-}
+} 
 
 
 
@@ -66,14 +66,14 @@
     }
     
     .main-nav { display: none; }
-    .mobile-nav-icon {display: block; float: right;}
-    
+    .mobile-nav-icon { display: block; float: right; }
+
     .main-nav {
         float: left;
         margin-top: 30px;
         margin-left: 25px;
     }
-    
+
     .main-nav li {
         display: block;
     }
@@ -135,6 +135,19 @@
 }
 
 
+/* 
+Small screens */
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        width: 210px;
+        height: auto;
+    }
+    .logo-black {
+        width: 210px;
+        height: auto;
+    }
+}
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
