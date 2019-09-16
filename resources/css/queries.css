@@ -64,6 +64,7 @@
     .logo {
         width: 360px;
     }
+
     
     .main-nav { display: none; }
     .mobile-nav-icon { display: block; float: right; }
@@ -85,6 +86,7 @@
         padding: 10px 0;
         font-size: 100%;
     }
+    
 
 
     .follow-link-nav ul {
@@ -146,6 +148,36 @@ Small screens */
     .logo-black {
         width: 210px;
         height: auto;
+    }
+    .main-nav-solid {
+        position: relative;
+        z-index: 100000;
+        background-color: rgb(0, 0, 0);
+        float: right;
+        border: 1px solid white;
+        left: -92%;
+        padding-right: 20px;
+    }
+    
+    .main-nav-not-solid {
+        position: relative;
+        z-index: 100000;
+        float: right;
+        padding-right: 18px;
+    }
+
+    .sticky .main-nav-solid {
+        position: relative;
+        z-index: 100000;
+        background-color: rgba(0, 0, 0, 0);
+        float: right;
+        padding-right: 18px;
+        border: 1px solid rgba(255, 255, 255, 0);
+        padding-top: 60px;
+    }
+    .sticky .main-nav-solid li {
+        padding-right: 10px;
+        padding-top: 20px;
     }
 }
 
