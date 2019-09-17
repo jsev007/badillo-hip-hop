@@ -97,6 +97,15 @@
     .plan-price { font-size: 250%; }
     .contact-form { width: 80%; }
 
+
+    .header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
     /* ----------------------------------------------- */
 /* Section Follow */
 /* ----------------------------------------------- */
@@ -142,20 +151,24 @@
     background-attachment: fixed;
 }
 
-.header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
+
 
 
     
 }
 
 @media only screen and (max-width: 1000px) {
+    .header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+
+
     .show {
         position: relative;
         z-index: 100000;
@@ -251,7 +264,14 @@ Small screens */
         padding-right: 10px;
         padding-top: 20px;
     }
-
+    .header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
 
     .show {
         position: relative;
