@@ -277,7 +277,10 @@ New Nav Bar */
     background-attachment: fixed;
 }
 
-
+.nav {
+    position: relative;
+    z-index: 100000;
+}
 
 .navbar-toggler {
     border: #dd4c3900;
