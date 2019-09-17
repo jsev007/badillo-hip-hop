@@ -1,9 +1,3 @@
-/*
-Orange color: #e67e22
-
-*/
-
-
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
@@ -216,8 +210,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 .header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -263,8 +257,8 @@ New Nav Bar */
 .show {
     position: relative;
     z-index: 100000;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
     background-size: cover;
     background-position: center;
     height: auto;
@@ -274,13 +268,13 @@ New Nav Bar */
 .sticky .show {
     position: relative;
     z-index: 100000;
-    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
+    background-color: #fff;
     background-size: cover;
     background-position: center;
     height: auto;
     background-attachment: fixed;
-    background-color: #ffffff;
 }
 
 
@@ -439,7 +433,7 @@ New Nav Bar */
 .section-about {
     background-color: #000;
     top: 50%;
-    height: 450px;
+    height: auto;
 }
 
 .section-about .long-copy {
@@ -577,13 +571,13 @@ New Nav Bar */
 /* ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG.jpg);
     background-size: cover;
     color: rgb(255, 255, 255);
     background-attachment: fixed;
     background-position: center;
-    height: 60vh;
+    height: auto;
 }
 
 blockquote {
@@ -913,11 +907,11 @@ a:active {
 /* Section Follow */
 /* ----------------------------------------------- */
 .section-follow {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG.jpg);
     background-size: cover;
     background-position: center;
-    height: 58vh;
+    height: auto;
     background-attachment: fixed;
 }
 

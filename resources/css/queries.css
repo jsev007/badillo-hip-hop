@@ -30,31 +30,6 @@
         height: 54px;
     }
 
-   
-/*     
-    .main-nav { display: none; }
-    .mobile-nav-icon { display: block; float: right; }
-
-    .main-nav {
-        float: left;
-        margin-top: 30px;
-        margin-left: 25px;
-    }
-
-    .main-nav li {
-        display: block;
-    }
-    
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 100%;
-    }
-    
-    */
-
     .follow-link-nav ul {
         display: inline-flex;
         margin-top: 10px;
@@ -128,6 +103,10 @@
 /* 
 Small screens */
 @media only screen and (max-width: 600px) {
+    .hmtl,
+    .body {
+        margin: 16px 0;
+    }
 
     .logo {
         height: 39px;
@@ -158,7 +137,6 @@ Small screens */
         background-color: rgb(255, 255, 255);
         float: right;
         padding-right: 18px;
-        border: 1px solid rgb(255, 0, 0);
         padding-top: 60px;
     }
     .sticky .main-nav-solid li {
