@@ -9,23 +9,9 @@
     .row { padding: 0 2%; }
     iframe { width: 70%; }
 
-    
-}
 
-
-/* Small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1023px) {
-
-    
-
-} 
-
-
-
-/* Small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 1200px) {
     body { font-size: 18px; }
-    .section { padding: 60px 0; }
+    .section { padding: 0 0; }
     
     .row,
     .hero-text-box { padding: 0 4%; }
@@ -41,10 +27,11 @@
     }
 
     .logo {
-        width: 360px;
+        height: 54px;
     }
 
-    
+   
+/*     
     .main-nav { display: none; }
     .mobile-nav-icon { display: block; float: right; }
 
@@ -66,14 +53,14 @@
         font-size: 100%;
     }
     
-
+    */
 
     .follow-link-nav ul {
         display: inline-flex;
         margin-top: 10px;
     }
     iframe { width: 60%; }
-
+ 
     
     .sticky .main-nav { margin-top: 10px; }
 
@@ -81,7 +68,10 @@
     .sticky .main-nav li a:visited { padding: 10px 0; }
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: rgb(0, 0, 0); }
-    
+    .sticky .follow-link-nav i { 
+        color: rgb(0, 0, 0);
+     }
+
     
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
@@ -140,17 +130,15 @@ Small screens */
 @media only screen and (max-width: 600px) {
 
     .logo {
-        width: 210px;
-        height: auto;
+        height: 39px;
     }
     .logo-black {
-        width: 210px;
-        height: auto;
+        height: 39px;
     }
     .main-nav-solid {
         position: relative;
         z-index: 100000;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
         float: right;
         border: 1px solid white;
         left: -92%;
@@ -167,10 +155,10 @@ Small screens */
     .sticky .main-nav-solid {
         position: relative;
         z-index: 100000;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgb(255, 255, 255);
         float: right;
         padding-right: 18px;
-        border: 1px solid rgba(255, 255, 255, 0);
+        border: 1px solid rgb(255, 0, 0);
         padding-top: 60px;
     }
     .sticky .main-nav-solid li {
@@ -181,6 +169,8 @@ Small screens */
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    .logo { height: 42px;}
+    .logo-black { height: 36px;}
     .section { padding: 25px 0; }
     .contact-form {width: 100%; }
 }

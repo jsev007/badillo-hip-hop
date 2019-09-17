@@ -156,6 +156,8 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
+
+
 /* ----- BUTTONS ----- */
 .btn:link,
 .btn:visited,
@@ -232,8 +234,9 @@ input[type=submit]:active {
     transform: translate(-50%, -50%);
 }
 
-logo-left {
+.logo-left {
     float: left;
+    text-decoration: none;
 
 }
 
@@ -243,6 +246,8 @@ logo-left {
     margin: 6px 0;
     margin-right: 10px;
     margin-top: 20px;
+    text-decoration: none;
+
 }
 
 .logo-black { 
@@ -252,6 +257,52 @@ logo-left {
     margin: 8px 0;
     margin-right: 10px;
 }
+
+/* 
+New Nav Bar */
+.show {
+    position: relative;
+    z-index: 100000;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+}
+
+.sticky .show {
+    position: relative;
+    z-index: 100000;
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+    background-color: #ffffff;
+}
+
+
+
+.navbar-toggler {
+    border: #dd4c3900;
+}
+
+.navbar-dark  i {
+    color: rgb(255, 255, 255);
+    border-color: rgba(4, 0, 255, 0);
+}
+
+.sticky i {
+    color: rgb(0, 0, 0);
+}
+
+.sticky  .navbar-toggler i {
+    color: rgb(0, 0, 0);
+    border-color: rgba(255, 217, 0, 0);
+}
+
 
 /* Main navi */
 .main-nav {
@@ -275,6 +326,7 @@ logo-left {
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
+    display: inline-flex;
 }
 
 .main-nav li a:hover,
@@ -289,10 +341,17 @@ logo-left {
 
 }
 
+.sticky .follow-link-nav li  {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: -55px;
+
+}
+
 .follow-link-nav li a:link,
 .follow-link-nav li a:visited {
     padding: 8px 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
@@ -301,8 +360,25 @@ logo-left {
     transition: border-bottom 0.2s;
 }
 
-.follow-link-navli a:hover,
+.follow-link-nav li a:hover,
 .follow-link-nav li a:active {
+    border-bottom: 2px solid #a3a3a3;
+}
+
+.sticky .follow-link-nav li a:link,
+.sticky .follow-link-nav li a:visited {
+    padding: 8px 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.sticky .follow-link-nav li a:hover,
+.sticky .follow-link-nav li a:active {
     border-bottom: 2px solid #a3a3a3;
 }
 
@@ -342,7 +418,7 @@ logo-left {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: rgb(56, 56, 56);
+    color: rgb(0, 0, 0);
 }
 
 
