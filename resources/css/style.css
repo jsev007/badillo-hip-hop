@@ -208,7 +208,14 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
-
+.header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
 
 .hero-text-box {
     position: absolute;
@@ -249,7 +256,7 @@ New Nav Bar */
 
 
 .header nav {
-    position: relative;
+    /* position: relative; */
     z-index: 100000;
     height: auto;
 }
@@ -302,6 +309,27 @@ New Nav Bar */
 .main-nav li a:active {
     border-bottom: 2px solid #a3a3a3;
 }
+
+.section-follow {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    }
+
+    .section-testimonials {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        background-attachment: fixed;
+        background-position: center;
+        height: 100%;
+        background-attachment: fixed;
+    }
+        
 
 .follow-link-nav li  {
     display: inline-block;
@@ -392,7 +420,7 @@ New Nav Bar */
 
 
 .sticky .main-nav-not-solid {
-    position: relative;
+    /* position: relative; */
     z-index: 100000;
     float: right;
     padding-right: 18px;
@@ -672,7 +700,7 @@ input[type=checkbox] {
 .footer {
     color: #eaeaea;
     background-color: rgb(0, 0, 0);
-    padding: 50px;
+    padding: 15px;
     font-size: 80%;
 }
 
@@ -849,6 +877,10 @@ input[type=checkbox] {
 }
 /* ----- LINKS ----- */
 
+
+
+
+
 .follow-links a:link,
 a:visited {
     color: #ffffff;
@@ -869,6 +901,22 @@ a:active {
     padding-right: 6px;
 }
 
+
+.listen-links a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ff000000;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.listen-links a:hover,
+a:active {
+    color: rgb(117, 117, 117);
+    /* border-bottom: 1px solid transparent; */
+}
 
 
 

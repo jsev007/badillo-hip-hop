@@ -10,7 +10,7 @@
     iframe { width: 70%; }
 
 
-    body { font-size: 18px; }
+    body { font-size: 18px;  }
     .section { padding: 0 0; }
     
     .row,
@@ -98,66 +98,16 @@
     .contact-form { width: 80%; }
 
 
- .header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
+
 /* ----------------------------------------------- */
 /* Section Follow */
 /* ----------------------------------------------- */
-.section-follow {
-background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-background-size: cover;
-background-position: center;
-height: auto;
-background-attachment: fixed;
-}
-
-.section-testimonials {
-background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
-background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
-background-size: cover;
-color: rgb(255, 255, 255);
-background-attachment: fixed;
-background-position: center;
-height: auto;
-}
-
-.show {
-position: relative;
-z-index: 100000;
-background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-background-size: cover;
-background-position: center;
-height: auto;
-background-attachment: fixed;
-}
-
-.sticky .show {
-position: relative;
-z-index: 100000;
-background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-background-color: #fff;
-background-size: cover;
-background-position: center;
-height: auto;
-background-attachment: fixed;
-}
 
 
 
-
-   
-}
 
 @media only screen and (max-width: 1000px) {
+
     .header {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
@@ -166,8 +116,6 @@ background-attachment: fixed;
         height: 100vh;
         background-attachment: fixed;
     }
-
-
 
     .show {
         position: relative;
@@ -178,7 +126,6 @@ background-attachment: fixed;
         background-repeat: no-repeat;
 
         background-position: center;
-        height: 110vh;
         background-attachment: fixed;
     }
 
@@ -192,7 +139,6 @@ background-attachment: fixed;
         background-repeat: no-repeat;
 
         background-position: center;
-        height: 110vh;
 
         background-attachment: fixed;
     }
@@ -202,11 +148,10 @@ background-attachment: fixed;
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-MD1-1000.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-
         color: rgb(255, 255, 255);
-        background-attachment: fixed;
         background-position: center;
-        height: 110vh;
+        height: 100%;
+        background-attachment: fixed;
     }
 
     .section-follow {
@@ -214,9 +159,8 @@ background-attachment: fixed;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-
         background-position: center;
-        height: 110vh;
+        height: 100%;
         background-attachment: fixed;
     }
 }
@@ -224,10 +168,7 @@ background-attachment: fixed;
 /* 
 Small screens */
 @media only screen and (max-width: 500px) {
-    .hmtl,
-    .body {
-        margin: 16px 0;
-    }
+
 
     .logo {
         height: 39px;
@@ -253,7 +194,7 @@ Small screens */
     }
 
     .sticky .main-nav-solid {
-        position: relative;
+        /* position: relative; */
         z-index: 100000;
         background-color: rgb(255, 255, 255);
         float: right;
@@ -264,9 +205,10 @@ Small screens */
         padding-right: 10px;
         padding-top: 20px;
     }
+    
     .header {
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -278,51 +220,46 @@ Small screens */
     .show {
         position: relative;
         z-index: 100000;
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-
         background-position: center;
-        height: 110vh;
         background-attachment: fixed;
     }
 
     .sticky .show {
         position: relative;
         z-index: 100000;
-        background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-        background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+        background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
         background-color: #fff;
         background-size: cover;
         background-repeat: no-repeat;
-
         background-position: center;
-        height: 110vh;
-
         background-attachment: fixed;
     }
 
     .section-testimonials {
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-SM-1000.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-SM-1000.jpg);
         background-size: cover;
         background-repeat: no-repeat;
 
         color: rgb(255, 255, 255);
         background-attachment: fixed;
         background-position: center;
-        height: 110vh;
+        height: 100%;
     }
 
     .section-follow {
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-SM-1000.jpg);
         background-size: cover;
         background-repeat: no-repeat;
 
         background-position: center;
-        height: 110vh;
+        height: 100%;
         background-attachment: fixed;
     }
     
@@ -330,9 +267,11 @@ Small screens */
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    .logo { height: 42px;}
+    .logo { height: 39px;}
     .logo-black { height: 36px;}
-    .section { padding: 25px 0; }
-    .contact-form {width: 100%; }
+    text 
+    {
+        margin: 0 8px;
+    }
 }
 
