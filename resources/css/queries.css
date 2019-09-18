@@ -2,11 +2,27 @@
     .header {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-        background-size: cover;
-        background-position: center;
         height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed;
+        position: relative;
     }
+
+    .section-testimonials {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
+        background-size: cover;
+        /* color: rgb(255, 255, 255); */
+        background-attachment: fixed;
+        background-position: center;
+        height: 100%;
+        background-attachment: fixed;
+        position: relative;
+
+    }
+
     .section-follow {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
@@ -14,18 +30,11 @@
         background-position: center;
         height: 100%;
         background-attachment: fixed;
+        position: relative;
+
         }
     
-    .section-testimonials {
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-LG1.jpg);
-        background-size: cover;
-        color: rgb(255, 255, 255);
-        background-attachment: fixed;
-        background-position: center;
-        height: 100%;
-        background-attachment: fixed;
-    }
+
 }
 
 
@@ -77,6 +86,8 @@
     .sticky .follow-link-nav i { 
         color: rgb(0, 0, 0);
      }
+
+ 
 
     
     h1 { font-size: 180%; }
@@ -141,11 +152,13 @@
 
     .header {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-MD1-1000.jpg);
         background-size: cover;
         background-position: center;
         height: 100vh;
         background-attachment: fixed;
+        position: relative;
+
     }
 
     .show {
@@ -158,6 +171,8 @@
 
         background-position: center;
         background-attachment: fixed;
+        position: relative;
+
     }
 
     .sticky .show {
@@ -172,6 +187,8 @@
         background-position: center;
 
         background-attachment: fixed;
+        position: relative;
+
     }
 
     .section-testimonials {
@@ -183,6 +200,8 @@
         background-position: center;
         height: 100%;
         background-attachment: fixed;
+        position: relative;
+
     }
 
     .section-follow {
@@ -193,6 +212,8 @@
         background-position: center;
         height: 100%;
         background-attachment: fixed;
+        position: relative;
+
     }
 }
 
@@ -243,7 +264,10 @@ Small screens */
         background-size: cover;
         background-position: center;
         height: 100vh;
+        background-repeat: no-repeat;
         background-attachment: fixed;
+        position: relative;
+
     }
 
 
@@ -257,6 +281,8 @@ Small screens */
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
+        position: relative;
+
     }
 
     .sticky .show {
@@ -269,6 +295,8 @@ Small screens */
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
+        position: relative;
+
     }
 
     .section-testimonials {
@@ -276,11 +304,12 @@ Small screens */
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/alexis-antoine-qb9L7rxAUOk-unsplash-SM-1000.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-
         color: rgb(255, 255, 255);
         background-attachment: fixed;
         background-position: center;
         height: 100%;
+        position: relative;
+
     }
 
     .section-follow {
@@ -292,6 +321,8 @@ Small screens */
         background-position: center;
         height: 100%;
         background-attachment: fixed;
+        position: relative;
+
     }
     
 }
@@ -305,4 +336,3 @@ Small screens */
         margin: 0 8px;
     }
 }
-

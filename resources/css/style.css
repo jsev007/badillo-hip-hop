@@ -280,10 +280,24 @@ New Nav Bar */
     margin-top: 55px;
 }
 
+
+
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    
 }
+
+/* .show .main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+} */
+
+/* .show .main-nav li {
+    display: flow-root;
+    margin: 12px;
+} */
 
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -555,6 +569,7 @@ blockquote {
     line-height: 145%;
     position: relative;
     margin-top: 40px;
+    text-shadow: 2px 2px 4px black;
 }
 
 blockquote:before {
@@ -577,6 +592,9 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+    padding:1px;
+    border:1px solid #969696;
+    text-shadow: 2px 2px 4px black;
 }
 
 
@@ -786,6 +804,7 @@ input[type=checkbox] {
     transform: scale(1);
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     transition: transform 0.5s, opacity 0.5s;
+
 }
 
 .merch-photo img:hover {
@@ -793,6 +812,7 @@ input[type=checkbox] {
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
+ 
 }
 
 /* ----------------------------------------------- */
