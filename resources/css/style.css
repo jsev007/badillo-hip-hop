@@ -209,8 +209,8 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 .header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -311,8 +311,8 @@ New Nav Bar */
 }
 
 .section-follow {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
