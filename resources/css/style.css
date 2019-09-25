@@ -213,7 +213,7 @@ input[type=submit]:active {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 50%;
+    top: 53%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -233,15 +233,16 @@ input[type=submit]:active {
     margin-right: 10px;
     margin-top: 20px;
     text-decoration: none;
-
+    padding-left: 40px;
 }
 
 .logo-black { 
     display: none;
-    height: 54px;
+    height: 60px;
     width: auto;
     margin: 8px 0;
     margin-right: 10px;
+    padding-left: 50px;
 }
 
 /* 
@@ -278,6 +279,7 @@ New Nav Bar */
     float: right;
     list-style: none;
     margin-top: 55px;
+    padding-left: 0%;
 }
 
 
@@ -893,7 +895,7 @@ a:active {
 }
 
 .follow-links i {
-    padding-right: 6px;
+    padding-right: 8px;
 }
 
 
@@ -948,3 +950,6 @@ a:active {
 }
 
 
+.fab {
+    padding-right: 8px;
+}

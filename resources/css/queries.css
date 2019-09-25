@@ -3,10 +3,10 @@
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/sven-scheuermeier-tqzqzH8hb5A-unsplash-LG1.jpg);
         height: 100vh;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;
         background-attachment: fixed;
+        background-size: cover;
         position: relative;
     }
 
@@ -217,6 +217,20 @@
     }
 }
 
+@media only screen and (max-width: 961px) {
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin-top: 40px;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        margin-left: 14px;
+        padding-top: 12px;
+    }
+}
+
 /* 
 Small screens */
 @media only screen and (max-width: 500px) {
@@ -225,16 +239,19 @@ Small screens */
     .logo {
         height: 39px;
     }
+
     .logo-black {
         height: 39px;
+        padding-left: 10px;
     }
+
     .main-nav-solid {
         position: relative;
         z-index: 100000;
         background-color: rgb(255, 255, 255);
         float: right;
         border: 1px solid white;
-        left: -92%;
+        /* left: -92%; */
         padding-right: 20px;
     }
     
@@ -329,10 +346,12 @@ Small screens */
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    .logo { height: 39px;}
+    .logo { 
+        padding-left: 0px;
+        height: 39px;
+    }
     .logo-black { height: 36px;}
-    text 
-    {
+    text {
         margin: 0 8px;
     }
 }
