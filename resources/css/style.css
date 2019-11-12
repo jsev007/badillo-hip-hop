@@ -939,8 +939,8 @@ a:active {
 }
 
 .js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
 .js--wp-1.animated,
